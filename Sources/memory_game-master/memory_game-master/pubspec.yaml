@@ -1,0 +1,32 @@
+name: memory_game
+description: A small game to test out animations such as FlipAnimation, FadeoutAnimation and ScaleAnimation
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  redux: ^3.0.0
+  flutter_redux: ^0.5.2
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - images/memory_block_1.jpg
+  - images/memory_block_2.jpg
+  - images/memory_block_3.jpg
+  - images/memory_block_4.jpg
+  - images/memory_block_5.jpg
+  - images/memory_block_6.jpg
+  - images/memory_block_7.jpg
+  - images/memory_block_8.jpg
+  - images/memory_block_covered.jpg
